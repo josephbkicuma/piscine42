@@ -6,7 +6,7 @@
 /*   By: JoKicuma <kicuma@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 08:13:59 by JoKicuma          #+#    #+#             */
-/*   Updated: 2023/11/17 08:23:07 by JoKicuma         ###   ########.fr       */
+/*   Updated: 2023/11/17 08:32:26 by JoKicuma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,15 @@
 
 void	ft_is_negative(int n)
 {
-	char	num_pos_neg;
+	char	c;
 
 	if (n < 0)
 	{
-		num_pos_neg = 'N';
+		c = 'N';
 	}
 	else
 	{
-		num_pos_neg = 'P';
+		c = 'P';
 	}
-	write(1, &num_pos_neg, 1);
+	write(1, &c, 1);
 }
